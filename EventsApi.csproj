@@ -27,6 +27,13 @@
     <Folder Include="Frontend\" />
     <Folder Include="Migrations\" />
     <Folder Include="Sql-queries\" />
+
   </ItemGroup>
+<ItemGroup>
+    <Compile Remove="EventsApi.Tests\**" />
+    <Content Remove="EventsApi.Tests\**" />
+    <EmbeddedResource Remove="EventsApi.Tests\**" />
+    <None Remove="EventsApi.Tests\**" />
+</ItemGroup>
 
 </Project>

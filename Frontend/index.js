@@ -1,9 +1,9 @@
 // Use https (http secure).
 // http (non-secure) will cause mixed content errors when running from Azure.
-const localUrl = "https://localhost:7001/events"
+const localUrl = "http://localhost:5217/events"
 const azureUrl = "https://your-azure-app.azurewebsites.net/events" // update after deploy
 
-const localAuthUrl = "https://localhost:7001/auth/login"
+const localAuthUrl = "http://localhost:5217/auth/login"
 const azureAuthUrl = "https://your-azure-app.azurewebsites.net/auth/login"
 
 Vue.createApp({

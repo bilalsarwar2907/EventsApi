@@ -1,0 +1,21 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-weight: 700;
+    color: #343a40;
+}
+
+.table thead th {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.card {
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+``` ### STEP 11.4 — Git Commit ``` git add . git commit -m "Add Vue 3 frontend with login, filter, sort, add, delete"

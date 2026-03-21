@@ -7,8 +7,3 @@
     }
 }
 
-
-//### STEP 3.4 — Git Commit
-//```
-//git add .
-//git commit -m 

@@ -17,5 +17,3 @@ h1 {
     border-radius: 0.75rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
-
-``` ### STEP 11.4 — Git Commit ``` git add . git commit -m "Add Vue 3 frontend with login, filter, sort, add, delete"

@@ -9,8 +9,3 @@ SELECT * FROM Events ORDER BY Price ASC;
 
 
 
-
---### STEP 5.4 — Git Commit
---```
---git add .
---git commit -m 

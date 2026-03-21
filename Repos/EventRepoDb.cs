@@ -7,10 +7,10 @@ namespace EventsApi.Repos
 {
     public class RepoDB<T> : IRepoList<T> where T : class, IIdable
     {
-        private readonly AppDbContext _context;
+        private readonly EventDbContext _context;
         private readonly DbSet<T> _dbSet;
 
-        public RepoDB(AppDbContext context)
+        public RepoDB(EventDbContext context)
         {
             _context = context;
             _dbSet = context.Set<T>();
